@@ -106,6 +106,26 @@ public:
 		return(*this);
 	}
 
+	Vector3Template& Set(const TYPE& x, const TYPE& y, const TYPE& z)
+	{
+		if (x != NULL)
+		{
+			this->x = x;
+		}
+
+		if (y != NULL)
+		{
+			this->y = y;
+		}
+
+		if (z != NULL)
+		{
+			this->z = z;
+		}
+
+		return(*this);
+	}
+
 	Vector3Template& Negate()
 	{
 		x = -x;

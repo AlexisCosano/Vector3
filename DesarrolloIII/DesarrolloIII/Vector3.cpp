@@ -108,3 +108,23 @@ Vector3& Vector3::SetToZero()
 
 	return(*this);
 };
+
+Vector3& Vector3::Set(const int& x, const int& y, const int& z)
+{
+	if (x != NULL)
+	{
+		this->x = x;
+	}
+
+	if (y != NULL)
+	{
+		this->y = y;
+	}
+
+	if (z != NULL)
+	{
+		this->z = z;
+	}
+
+	return(*this);
+};

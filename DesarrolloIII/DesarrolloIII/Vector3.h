@@ -26,4 +26,5 @@ public:
 	Vector3& Negate();
 	bool IsZero();
 	Vector3& SetToZero();
+	Vector3& Set(const int& x, const int& y, const int& z);
 };
